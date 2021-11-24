@@ -9,5 +9,12 @@ router.get('/', function (req, res){
         })
 })
 
+router.get('/id', function(req,res){
+    console.log("quiero saber id " +  req.query.idHeroe)
+    controller.searchHeroeForId( req.query.idHeroe)
+        .then((data) =>{
+            res.status(200).send(data)
+        })
+})
 
 module.exports= router;

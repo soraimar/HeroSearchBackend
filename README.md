@@ -5,8 +5,7 @@ acceder a la data de los héroes  desde cualquier Frond-End sin restricciones de
 
 Technology 
 ---
-
-
+* Node.js >= 16.10.0
 
 EndPoint
 ---
